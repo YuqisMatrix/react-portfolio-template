@@ -5,66 +5,20 @@ import Chip from "@mui/material/Chip";
 import "../assets/styles/Expertise.scss";
 
 const mlSkills = [
-  "Excel",
-  "SQL (MySQL, PostgreSQL)",
-  "Tableau",
-  "Power BI",
-  "Data Cleaning",
-  "Exploratory Data Analysis",
-  "Data Visualization",
-  "Statistical Modeling",
-  "Hypothesis Testing",
-  "A/B Testing",
-  "Regression Analysis",
-  "Clustering",
-  "Dashboarding",
+"Machine Learning", "Deep Learning", "NLP", "LLM (GPT-4, LLaMA, Gemini)", "Predictive Modeling", "Time Series", "Clustering", "Feature Engineering", "Statistical Modeling", "Regression Analysis", "Hypothesis Testing", "Causal Inference", "Recommendation Systems"
 ];
 
 const progSkills = [
-  "Python (pandas, scikit-learn, PyTorch)",
-  "SQL (MySQL, NoSQL)",
-  "MongoDB",
-  "Git",
-  "Docker",
-  "R",
-  "Keras",
-  "TensorFlow",
-  "XGBoost",
-  "OpenCV",
-  "NLTK",
-  "spaCy",
-  "PySpark",
-  "Java",
-  "Scala",
+"Python (pandas, scikit-learn, PyTorch)", "R", "Java", "Scala", "SQL (MySQL, NoSQL, PostgreSQL)", "MongoDB", "Git", "Docker", "Kubernetes", "Airflow", "CI/CD", "SageMaker", "Keras", "TensorFlow", "XGBoost", "OpenCV", "NLTK", "spaCy", "PySpark", "AWS (S3, EC2, Lambda)", "GCP (BigQuery, Cloud Functions)", "Azure (Data Lake, Functions)"
 ];
 
 const dataSciSkills = [
-  "Root Cause Analysis",
-  "Causal Inference",
-  "Predictive Modeling",
-  "Time Series",
-  "A/B Testing",
-  "Hypothesis Testing",
-  "Statistical Analysis",
-  "Machine Learning",
-  "Deep Learning",
-  "NLP",
-  "LLM (e.g. GPT-4, LLaMA)",
-  "ETL Pipelines",
+"Data Cleaning", "Exploratory Data Analysis", "Data Visualization", "Dashboarding", "Tableau", 
+"Power BI", "Excel", "Root Cause Analysis", "Statistical Analysis", "ETL Pipelines", "Data Warehousing", "A/B Testing",
+"Relational Databases", "Business Intelligence", "Descriptive Statistics"
 ];
 
-const mlOpsSkills = [
-  "Docker",
-  "Kubernetes",
-  "MLflow",
-  "Airflow",
-  "SageMaker",
-  "CI/CD",
-  "Model Monitoring",
-  "Data Versioning",
-  "TensorBoard",
-  "Kubeflow",
-];
+
 
 function Expertise() {
   return (
@@ -120,21 +74,7 @@ function Expertise() {
             </div>
           </div>
 
-          {/* ML Ops */}
-          <div className="skill">
-            <FontAwesomeIcon icon={faCogs} size="3x" />
-            <h3>ML Ops & Deployment</h3>
-            <p>
-              Automating the end-to-end ML lifecycle: training, deployment,
-              monitoring, and pipeline orchestration.
-            </p>
-            <div className="flex-chips">
-              <span className="chip-title">Tech stack:</span>
-              {mlOpsSkills.map((label, i) => (
-                <Chip key={i} className="chip" label={label} />
-              ))}
-            </div>
-          </div>
+        
         </div>
       </div>
     </div>

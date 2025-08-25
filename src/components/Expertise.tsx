@@ -5,7 +5,7 @@ import Chip from "@mui/material/Chip";
 import "../assets/styles/Expertise.scss";
 
 const mlSkills = [
-"Machine Learning", "Deep Learning", "NLP", "LLM (GPT-4, LLaMA, Gemini)", "Predictive Modeling", "Time Series", "Clustering", "Feature Engineering", "Statistical Modeling", "Regression Analysis", "Hypothesis Testing", "Causal Inference", "Recommendation Systems"
+"Machine Learning", "Deep Learning", "NLP", "LLM (GPT-4, LLaMA, Gemini)", "Predictive Modeling", "Time Series", "Clustering", "Feature Engineering", "Statistical Modeling", "Hypothesis Testing", "Causal Inference", "Recommendation Systems"
 ];
 
 const progSkills = [
@@ -15,7 +15,7 @@ const progSkills = [
 const dataSciSkills = [
 "Data Cleaning", "Exploratory Data Analysis", "Data Visualization", "Dashboarding", "Tableau", 
 "Power BI", "Excel", "Root Cause Analysis", "Statistical Analysis", "ETL Pipelines", "Data Warehousing", "A/B Testing",
-"Relational Databases", "Business Intelligence", "Descriptive Statistics"
+"Relational Databases", "Business Intelligence"
 ];
 
 

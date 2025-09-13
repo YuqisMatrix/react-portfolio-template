@@ -17,8 +17,10 @@ function Main() {
             <a href="https://www.linkedin.com/in/yuqi-zhang-matrix/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
           <h1>Yuqi Zhang</h1>
-          <p>Data Scientist and Analyst</p>
-
+          <p> </p>
+          <p className="intro">
+  Hi, I’m Yuqi Zhang, a Data Scientist with a Master’s in Applied Data Science from USC. I specialize in machine learning, predictive analytics, and ETL pipelines. I’m driven by responsibility, adaptability, and a strong sense of ownership in every project I take on.
+</p>
           <div className="mobile_social_icons">
             <a href="https://github.com/YuqisMatrix" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/yuqi-zhang-matrix/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>

@@ -5,17 +5,17 @@ import Chip from "@mui/material/Chip";
 import "../assets/styles/Expertise.scss";
 
 const mlSkills = [
-"Machine Learning", "Deep Learning", "NLP", "LLM (GPT-4, LLaMA, Gemini)", "Predictive Modeling", "Time Series", "Clustering", "Feature Engineering", "Statistical Modeling", "Hypothesis Testing", "Causal Inference", "Recommendation Systems"
+"Machine Learning", "Deep Learning", "NLP", "LLM (GPT-4, LLaMA, Gemini)", "Predictive Modeling", "Time Series", "Clustering", "Feature Engineering", "Hypothesis Testing", "Causal Inference", "Recommendation Systems"
 ];
 
 const progSkills = [
-"Python (pandas, scikit-learn, PyTorch)", "R", "Java", "Scala", "SQL (MySQL, NoSQL, PostgreSQL)", "MongoDB", "Git", "Docker", "Kubernetes", "Airflow", "CI/CD", "SageMaker", "Keras", "TensorFlow", "XGBoost", "OpenCV", "NLTK", "spaCy", "PySpark", "AWS (S3, EC2, Lambda)", "GCP (BigQuery, Cloud Functions)", "Azure (Data Lake, Functions)"
+"Python (pandas, scikit-learn, PyTorch, PySpark)", "R", "Java", "SQL (MySQL, NoSQL, PostgreSQL)", "MongoDB", "Git", "Docker", "CI/CD", "Keras", "TensorFlow", "AWS (S3, EC2, Lambda)", "RESTful API"
 ];
 
 const dataSciSkills = [
-"Data Cleaning", "Exploratory Data Analysis", "Data Visualization", "Dashboarding", "Tableau", 
+"Exploratory Data Analysis", "Data Visualization", "Tableau", 
 "Power BI", "Excel", "Root Cause Analysis", "Statistical Analysis", "ETL Pipelines", "Data Warehousing", "A/B Testing",
-"Relational Databases", "Business Intelligence"
+"Relational Databases"
 ];
 
 

@@ -1,14 +1,16 @@
 import React from "react";
-import mock01 from '../assets/images/mock01.png';
-import mock02 from '../assets/images/mock02.png';
-import mock03 from '../assets/images/mock03.png';
-import mock04 from '../assets/images/mock04.png';
-import mock05 from '../assets/images/mock05.png';
-import mock06 from '../assets/images/mock06.png';
-import mock07 from '../assets/images/mock07.png';
-import mock08 from '../assets/images/mock08.png';
-import mock09 from '../assets/images/mock09.png';
-import mock10 from '../assets/images/mock10.png';
+
+//import mock01 from '../assets/images/mock01.png';
+//import mock02 from '../assets/images/mock02.png';
+//import mock03 from '../assets/images/mock03.png';
+//import mock04 from '../assets/images/mock04.png';
+//import mock05 from '../assets/images/mock05.png';
+//import mock06 from '../assets/images/mock06.png';
+//import mock07 from '../assets/images/mock07.png';
+//import mock08 from '../assets/images/mock08.png';
+
+import mock09 from '../assets/images/db.png';
+import mock10 from '../assets/images/yelp.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -17,15 +19,16 @@ function Project() {
         <h1>Personal Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
-                <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
+                <a href="https://github.com/YuqisMatrix/Yelp-recommendation-model/blob/main/report.md" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://yelp-demo-379273568378.us-central1.run.app/" target="_blank" rel="noreferrer"><h2>Yelp Rating Prediction & Recommendation System. Try Demo here</h2></a>
+                <p>A full-stack Yelp Recommendation System to predict user ratings and generate personalized business suggestions, powered by XGBoost, collaborative filtering, Flask, and GCP</p>
             </div>
-            <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+            <div className="project"> 
+                <a href="https://github.com/YuqisMatrix/AwesomeDB/tree/main" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/YuqisMatrix/AwesomeDB/tree/main" target="_blank" rel="noreferrer"><h2>AwesomeDB – Hybrid Relational/NoSQL Database System</h2></a>
+                <p>Scalable hybrid database system built with Python and Flask, featuring chunk-based storage and a custom query language for relational + NoSQL operations.</p>
             </div>
+            {/*
             <div className="project">
                 <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
@@ -41,6 +44,7 @@ function Project() {
                 <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
                 <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
             </div>
+            
             <div className="project">
                 <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>COVID-19 Case Management</h2></a>
@@ -66,6 +70,8 @@ function Project() {
                 <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
                 <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
             </div>
+            */}
+            
         </div>
     </div>
     );

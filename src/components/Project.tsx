@@ -11,6 +11,7 @@ import React from "react";
 
 import mock09 from '../assets/images/db.png';
 import mock10 from '../assets/images/yelp.png';
+import mock08  from '../assets/images/churn.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -21,19 +22,20 @@ function Project() {
             <div className="project">
                 <a href="https://github.com/YuqisMatrix/Yelp-recommendation-model/blob/main/report.md" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://yelp-demo-379273568378.us-central1.run.app/" target="_blank" rel="noreferrer"><h2>Yelp Rating Prediction & Recommendation System. Try Demo here</h2></a>
-                <p>A full-stack Yelp Recommendation System to predict user ratings and generate personalized business suggestions, powered by XGBoost, collaborative filtering, Flask, and GCP</p>
+                <p>A full-stack Yelp Recommendation System to predict user ratings and generate personalized business suggestions, powered by XGBoost, collaborative filtering, Flask, and Google Cloud Platform.</p>
             </div>
             <div className="project"> 
                 <a href="https://github.com/YuqisMatrix/AwesomeDB/tree/main" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/YuqisMatrix/AwesomeDB/tree/main" target="_blank" rel="noreferrer"><h2>AwesomeDB – Hybrid Relational/NoSQL Database System</h2></a>
                 <p>Scalable hybrid database system built with Python and Flask, featuring chunk-based storage and a custom query language for relational + NoSQL operations.</p>
             </div>
-            {/*
+            
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
+                <a href="https://github.com/YuqisMatrix/churn-model-api" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="http://telco-fastapi-alb-719025357.us-west-1.elb.amazonaws.com/ui/" target="_blank" rel="noreferrer"><h2>Telco Churn Prediction: End-to-End ML System</h2></a>
+                <p>End-to-end, production-ready ML system for telecom churn prediction using XGBoost, MLflow, Docker, CI/CD pipelines, FastAPI, and AWS ECS.</p>
             </div>
+            {/*
             <div className="project">
                 <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
